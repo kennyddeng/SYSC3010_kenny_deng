@@ -1,6 +1,7 @@
 from urllib.request import * 
 from urllib.parse import * 
 import json
+import sqlite3
 
 # The URL that is formatted: http://api.openweathermap.org/data/2.5/weather?APPID=a808bbf30202728efca23e099a4eecc7&units=imperial&q=ottawa
 # As of October 2015, you need an API key.
@@ -40,3 +41,22 @@ print ("Pressure: %d" % current["pressure"] )
 
 current = data["wind"]
 print ("Wind : %d" % current["speed"])
+
+# connect to database file
+dbconnect = sqlite3.connect("jsonDB.db");
+#If we want to access columns by name we need to set
+#row_factory to sqlite3.Row class
+dbconnect.row_factory = sqlite3.Row;
+#now we create a cursor to work with db
+cursor = dbconnect.cursor();
+
+#execute insert statement
+cursor.execute('''INSERT INTO jsondata values (?, ?)''', (city, current["speed"]));
+dbconnect.commit();
+#execute simple select statement
+cursor.execute('SELECT * FROM jsondata');
+#print data
+for row in cursor:
+    print(row['city'],row['wind']);
+#close the connection
+dbconnect.close();
