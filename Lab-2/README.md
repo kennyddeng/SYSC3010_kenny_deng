@@ -6,7 +6,7 @@ Section 3: Incomplete. Python  script  creating  and  modifying  a  database  ba
 
 Exercise 3: To create sensorDB.db\
 open terminal, navigate to working directory\
-sqlite3 sensorDB.db
-sqlite> BEGIN;
-sqlite> CREATE TABLE sensordata (ID INTEGER, datetime TEXT, temperature NUMERIC, humidity NUMERIC, pressure NUMERIC);
+sqlite3 sensorDB.db\
+sqlite> BEGIN;\
+sqlite> CREATE TABLE sensordata (ID INTEGER, datetime TEXT, temperature NUMERIC, humidity NUMERIC, pressure NUMERIC);\
 sqlite> COMMIT;
