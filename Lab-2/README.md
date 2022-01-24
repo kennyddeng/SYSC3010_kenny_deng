@@ -11,7 +11,7 @@ sqlite> BEGIN;\
 sqlite> CREATE TABLE sensordata (ID INTEGER, datetime TEXT, temperature NUMERIC, humidity NUMERIC, pressure NUMERIC);\
 sqlite> COMMIT;\
 
-Exercise 4: To create jsonDB.db\
+Section 3: To create jsonDB.db\
 open terminal, navigate to working directory\
 sqlite3 jsonDB.db\
 sqlite> BEGIN;\
