@@ -9,3 +9,7 @@ Exercise 4: lab3-thingspeak-read.py script - <a href="./lab3-thingspeak-read.py"
 Exercise 6: lab3-firebase.py script - <a href="./lab3-firebase.py">COMPLETE</a> <br>
 
 
+<h3>Script Description</h3>
+lab3-thingspeak-write.py - write SenseHAT sensor data to ThingSpeak channel<br>
+lab3-thingspeak-read.py - read ThingSpeak channel data and output to console <br>
+lab3-firebase.py - write SenseHAT sensor data to Firebase database and read Firebase database and output to console <br>
