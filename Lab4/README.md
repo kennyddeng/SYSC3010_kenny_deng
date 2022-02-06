@@ -12,3 +12,9 @@ RPi4 Connected to Microphone Sensor (Breadboard View) - <a href="./rpi4_connect_
 
 <h3>5.2 From Section 3:</h3>
 Link to Mini-Project Repository - <a href="https://github.com/crf15/L1W_G11_Lab4">HERE</a>
+
+<h3>Deliverable Explanation:</h3>
+Modified SenseHAT (Breadboard View) - Connect switch to SenseHAT. Uses gpio4 (gpio4 not used for I2C communication with SenseHAT). <br>
+Modified SenseHAT (Schematic View) - Connect switch to SenseHAT. Uses gpio4 (gpio4 not used for I2C communication with SenseHAT). <br>
+RPi4 Connected to Microphone Sensor (Breadboard View) - Uses gpio3 for I2C communication. <br>
+Link to Mini-Project Repository - Self explanatory. <br>
