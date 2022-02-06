@@ -1,4 +1,3 @@
-https://github.com/crf15/L1W_G11_Lab4
 <h1>SYSC3010 Lab4</h1>
 <p>
 Repository for Lab 4. SYSC3010 W2022.
