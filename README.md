@@ -3,7 +3,8 @@ Repository for sysc3010A taken during W2022. Contains separate folders for each 
 
 <h2> IMPORTANT - READ THIS! (Please Review Commits on "old" Branch, Explanation Below) </h2>
 If you are reviewing my commits please browse the "old" branch. I was dumb and forced a commit on main without knowing exactly what would happen 
-(long story, I had issues with the current branch being ahead and found a solution on StackOverflow). 
+(long story, I had issues with the current branch being ahead and found a solution on StackOverflow to force the commit. This deleted all my old 
+commit history in the process.). 
 Anyways I was able to restore to a previous commit and thus restoring my commit history. I kept the old commit history on a new branch ("old"). <br>
 
 <h2> Short Description of Each Lab Folder </h2>
